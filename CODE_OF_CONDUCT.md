@@ -1,12 +1,10 @@
-
+# Contributor Covenant Code of Conduct
 ---
-
-## 📜 2. `CODE_OF_CONDUCT.md`
 
 > File path: `salary-predictor/CODE_OF_CONDUCT.md`
 
-```markdown
-# 📜 Code of Conduct
+---
+
 
 ## 💬 Our Pledge
 
@@ -36,7 +34,7 @@ Examples of unacceptable behavior:
 
 If you experience or witness unacceptable behavior, please report it by contacting:
 
-📧 **Kotha Mohan Krishna** at [alwaysmohankrishnan@gmail.com](mailto:alwaysmohankrishnan@gmail.com)
+📧 **Kotha Mohan Krishna** at alwaysmohankrishnan@gmail.com 
 
 All reports will be handled confidentially.
 
