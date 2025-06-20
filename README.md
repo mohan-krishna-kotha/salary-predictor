@@ -1,7 +1,7 @@
 # 💼 MedSalaryPredict - Data Scientist Salary Prediction App
 
 [![Python](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/)
-[![Streamlit](https://img.shields.io/badge/Streamlit-Deployed-brightgreen)](https://salarypredict-yourusername.streamlit.app)
+[![Streamlit](https://img.shields.io/badge/Streamlit-Deployed-brightgreen)](https://salary-predictor-oetf6qdcf2vbcu9aui3qtg.streamlit.app/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Last Commit](https://img.shields.io/github/last-commit/mohan-krishna-kotha/salary-predictor)](https://github.com/mohan-krishna-kotha/salary-predictor/commits/main)
 [![Open Issues](https://img.shields.io/github/issues/mohan-krishna-kotha/salary-predictor)](https://github.com/mohan-krishna-kotha/salary-predictor/issues)
@@ -9,7 +9,7 @@
 
 MedSalaryPredict is a machine learning web application that predicts the annual salary (in USD) of data science professionals based on their job, experience level, company type, and remote work status. The app supports both manual inputs and bulk predictions via CSV upload.
 
-🔗 **Live App**: [https://salarypredict-yourusername.streamlit.app](https://salary-predictor-oetf6qdcf2vbcu9aui3qtg.streamlit.app/)
+🔗 **Live App**: [https://salary-predictor-oetf6qdcf2vbcu9aui3qtg.streamlit.app/](https://salary-predictor-oetf6qdcf2vbcu9aui3qtg.streamlit.app/)
 
 ---
 
@@ -26,11 +26,31 @@ MedSalaryPredict is a machine learning web application that predicts the annual 
 
 ## 📂 Sample CSV Format
 
+```csv
+work_year,experience_level,employment_type,job_title,employee_residence,remote_ratio,company_location,company_size
+2023,MI,FT,5,10,100,7,M
+2024,SE,PT,2,4,0,9,L
+```
 
 ---
-
 ## 📁 Project Structure
 
+```
+salary-predictor/
+├── app.py
+├── models/
+│   └── salary_model.pkl
+├── data/
+│   ├── data_science_salaries.csv
+│   └── test_corrected_no_index.csv
+├── notebooks/
+│   └── salary_predict_eda_model.ipynb
+├── requirements.txt
+├── README.md
+├── LICENSE
+├── screenshot1.png
+└── screenshot2.png
+```
 
 ---
 
@@ -48,9 +68,9 @@ MedSalaryPredict is a machine learning web application that predicts the annual 
 ## 📈 Model Used
 
 This project uses a **Linear Regression model** trained on encoded features such as:
-- Experience Level (`EN`, `MI`, `SE`, `EX`)
-- Company Size (`S`, `M`, `L`)
-- Employment Type (`FT`, `PT`, `CT`, `FL`)
+- Experience Level (EN, MI, SE, EX)
+- Company Size (S, M, L)
+- Employment Type (FT, PT, CT, FL)
 - Job title, location (numerical encoding)
 
 ---
@@ -78,6 +98,10 @@ pip install -r requirements.txt
 
 # Run the Streamlit app
 streamlit run app.py
+```
+
+
+---
 
 ## 📸 Screenshot
 
@@ -87,8 +111,12 @@ streamlit run app.py
 
 ---
 
-### ✅ Final To-Do Before Committing:
-- Replace `https://salarypredict-yourusername.streamlit.app` with your actual **Streamlit Cloud app URL**.
-- Make sure both `screenshot1.png` and `screenshot2.png` are already committed in your GitHub repo root directory.
+### ✅ Final Tip:
 
-Let me know if you’d like a PDF version, a LinkedIn post, or help generating a `CONTRIBUTING.md` or `.gitignore`!
+Now that this is ready, commit your updated `README.md`:
+
+```bash
+git add README.md
+git commit -m "Update complete README with live link and sample CSV"
+git push
+```
