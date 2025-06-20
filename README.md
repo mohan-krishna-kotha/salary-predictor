@@ -9,7 +9,7 @@
 
 MedSalaryPredict is a machine learning web application that predicts the annual salary (in USD) of data science professionals based on their job, experience level, company type, and remote work status. The app supports both manual inputs and bulk predictions via CSV upload.
 
-🔗 **Live App**: [https://salarypredict-yourusername.streamlit.app](https://salarypredict-yourusername.streamlit.app)
+🔗 **Live App**: [https://salarypredict-yourusername.streamlit.app](https://salary-predictor-oetf6qdcf2vbcu9aui3qtg.streamlit.app/)
 
 ---
 
